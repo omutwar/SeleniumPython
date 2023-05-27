@@ -20,3 +20,8 @@ This is new python project to keep my competence in check.
 > git push origin -u new_branch
 
 `In this example, old_branch is the name of the branch you want to rename and new_branch is the new name you want to give to the branch`
+
+Notes: updates will be stored here
+----------------------------------
+Tags: Selenium, Python
+
