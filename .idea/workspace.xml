@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9772cb0-b999-43a3-854d-7535ff47b13a" name="Changes" comment="Updated &lt;README.md&gt; File">
+    <list default="true" id="e9772cb0-b999-43a3-854d-7535ff47b13a" name="Changes" comment="Added Notes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -208,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685215763948</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Notes">
+      <created>1685216034250</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685216034250</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +233,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Merged remote with local" />
     <MESSAGE value="Updated &lt;README.md&gt; File" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated &lt;README.md&gt; File" />
+    <MESSAGE value="Added Notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Notes" />
   </component>
 </project>
