@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9772cb0-b999-43a3-854d-7535ff47b13a" name="Changes" comment="Merged remote with local">
+    <list default="true" id="e9772cb0-b999-43a3-854d-7535ff47b13a" name="Changes" comment="Updated &lt;README.md&gt; File">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
-    <list default="true" id="e9772cb0-b999-43a3-854d-7535ff47b13a" name="Changes" comment="Merged remote with local" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,7 +194,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685215089297</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merged remote with local">
+      <created>1685215727822</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685215727822</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated &lt;README.md&gt; File">
+      <created>1685215763948</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685215763948</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,6 +225,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Merged remote with local" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merged remote with local" />
+    <MESSAGE value="Updated &lt;README.md&gt; File" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated &lt;README.md&gt; File" />
   </component>
 </project>
