@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e9772cb0-b999-43a3-854d-7535ff47b13a" name="Changes" comment="Added Notes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/geckodriver.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/selenium_test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/selenium_test1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
