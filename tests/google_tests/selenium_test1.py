@@ -4,10 +4,11 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-gecko = webdriver.Firefox(executable_path='bin/geckodriver/geckodriver.exe')
-chrome = webdriver.Chrome(executable_path='bin/chromedriver/chromedriver.exe')
+gecko = webdriver.Firefox(executable_path='drivers/geckodriver/geckodriver.exe')
+# chrome = webdriver.Chrome(executable_path='drivers/chromedriver/chromedriver.exe')
 
-drivers = [gecko, chrome]
+# drivers = [gecko, chrome]
+drivers = [gecko]
 
 
 @pytest.mark.GoogleTitle
@@ -28,12 +29,12 @@ def test_google_page():
 
 @pytest.mark.GoogleSearch
 def test_google_signin():
-    chrome.get("https://google.com")
-    chrome.maximize_window()
+    gecko.get("https://google.com")
+    gecko.maximize_window()
     time.sleep(3)
-    chrome.find_element(By.XPATH, '//*[@id="APjFqb"]').send_keys('how to program with python')
+    gecko.find_element(By.XPATH, '//*[@id="APjFqb"]').send_keys('how to program with python')
     time.sleep(5)
 
     time.sleep(2)
-    assert chrome.title is not None
-    chrome.quit()
+    assert gecko.title is not None
+    gecko.quit()

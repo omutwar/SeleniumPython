@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9772cb0-b999-43a3-854d-7535ff47b13a" name="Changes" comment="Added Notes">
-      <change afterPath="$PROJECT_DIR$/flight_booking/__init__.py" afterDir="false" />
+    <list default="true" id="e9772cb0-b999-43a3-854d-7535ff47b13a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locators/google_page.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/flight_booking/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/flight_booking/light_booking_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/flight_booking/qusi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/google_tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chromedriver/LICENSE.chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/chromedriver/LICENSE.chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/chromedriver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/chromedriver/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/geckodriver/geckodriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/geckodriver/geckodriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/selenium_test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/google_tests/selenium_test1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +52,11 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;win10&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/bughr/PycharmProjects/SeleniumPython/tests&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.CSV/TSV/PSV&quot;,
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.30346233&quot;
   }
 }</component>
@@ -52,6 +64,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bughr\PycharmProjects\SeleniumProject\bin\chromedriver" />
       <recent name="C:\Users\bughr\PycharmProjects\SeleniumProject\bin\geckodriver" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\tests" />
+      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\tests\google_tests" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -62,7 +78,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for selenium_test1.test_google_signin">
+  <component name="RunManager" selected="Python.qusi">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="SeleniumPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="selenium_test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="qusi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,11 +108,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/flight_booking" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/selenium_test1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/flight_booking/qusi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,17 +121,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for selenium_test1.test_google_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for light_booking_test.test_oneway_flight" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/flight_booking" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;selenium_test1.test_google_page&quot;" />
+      <option name="_new_target" value="&quot;light_booking_test.test_oneway_flight&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -124,7 +140,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/google_tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -133,11 +149,41 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for tests.flight_booking.light_booking_test.test_oneway_flight" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/flight_booking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.flight_booking.light_booking_test.test_oneway_flight&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.google_tests.selenium_test1.test_google_signin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.google_tests.selenium_test1.test_google_signin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.qusi" />
+        <item itemvalue="Python tests.Python tests for light_booking_test.test_oneway_flight" />
         <item itemvalue="Python tests.Python tests for selenium_test1.test_google_signin" />
-        <item itemvalue="Python.selenium_test1" />
-        <item itemvalue="Python tests.Python tests for selenium_test1.test_google_page" />
+        <item itemvalue="Python tests.Python tests for tests.flight_booking.light_booking_test.test_oneway_flight" />
+        <item itemvalue="Python tests.Python tests for tests.google_tests.selenium_test1.test_google_signin" />
       </list>
     </recent_temporary>
   </component>
