@@ -7,3 +7,4 @@ tests/.pytest_cache
 
 # webdriver log files
 tests/geckodriver.log
+*/__init__.py
