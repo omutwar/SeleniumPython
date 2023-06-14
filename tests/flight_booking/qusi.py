@@ -1,9 +1,6 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.wait import WebDriverWait
 import time
 
+from selenium import webdriver
 
 driver_path = "drivers/geckodriver/geckodriver.exe"
 driver = webdriver.Firefox(executable_path=driver_path)
@@ -14,4 +11,4 @@ while n < 1_000_000:
     driver.get(url)
     print(n)
     time.sleep(3)
-    n+=1
+    n += 1
