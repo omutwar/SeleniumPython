@@ -4,10 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9772cb0-b999-43a3-854d-7535ff47b13a" name="Changes" comment="Added Notes">
+    <list default="true" id="e9772cb0-b999-43a3-854d-7535ff47b13a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivers/operadriver_win64/operadriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivers/operadriver_win64/sha512_sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/steps/tutorial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/“tutorial.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myApps/Tip_and_Tricks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/browser_based_tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/browser_based_tests/opera_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/browser_based_tests/salesforce_login_page_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/flight_booking/flight_booking_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unittests/Appium1_Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SeleniumPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SeleniumPython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/selenium_test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/selenium_test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myApps/data_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/myApps/data_provider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/flight_booking/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/flight_booking/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/flight_booking/light_booking_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/flight_booking/qusi.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/flight_booking/qusi_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/google_tests/selenium_test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/google_tests/selenium1_tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +50,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2QNkoJlseP1pTHdtC1p7t37AJO3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,17 +63,24 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;win10&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bughr/PycharmProjects/SeleniumPython/tests&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bughr/PycharmProjects/SeleniumPython/drivers&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.30346233&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\drivers" />
       <recent name="C:\Users\bughr\PycharmProjects\SeleniumProject\bin\chromedriver" />
       <recent name="C:\Users\bughr\PycharmProjects\SeleniumProject\bin\geckodriver" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\tests" />
+      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\tests\google_tests" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -63,7 +91,49 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for selenium_test1.test_google_signin">
+  <component name="RunManager" selected="Python.Tip_and_Tricks">
+    <configuration name="Tip_and_Tricks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myApps" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myApps/Tip_and_Tricks.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="flight_booking_tests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/flight_booking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/flight_booking/flight_booking_tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="SeleniumPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="selenium_test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tutorial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,11 +163,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/features/steps" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/selenium_test1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/features/steps/tutorial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,39 +176,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for selenium_test1.test_google_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for salesforce_login_page_tests.test_salesforce_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/browser_based_tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;selenium_test1.test_google_page&quot;" />
+      <option name="_new_target" value="&quot;salesforce_login_page_tests.test_salesforce_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for selenium_test1.test_google_signin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in Appium1_Test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unittests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;selenium_test1.test_google_signin&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/unittests/Appium1_Test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for selenium_test1.test_google_signin" />
-        <item itemvalue="Python.selenium_test1" />
-        <item itemvalue="Python tests.Python tests for selenium_test1.test_google_page" />
+        <item itemvalue="Python.Tip_and_Tricks" />
+        <item itemvalue="Python.tutorial" />
+        <item itemvalue="Python tests.Python tests in Appium1_Test.py" />
+        <item itemvalue="Python tests.Python tests for salesforce_login_page_tests.test_salesforce_login" />
+        <item itemvalue="Python.flight_booking_tests" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +258,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685216034250</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added venv to the project">
+      <created>1685653068056</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685653068056</updated>
+    </task>
+    <task id="LOCAL-00007" summary="- Added new XLSC File">
+      <created>1686719214360</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686719214360</updated>
+    </task>
+    <task id="LOCAL-00008" summary="- Added new XLSC File">
+      <created>1686719243844</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686719243844</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +298,8 @@
     <MESSAGE value="Merged remote with local" />
     <MESSAGE value="Updated &lt;README.md&gt; File" />
     <MESSAGE value="Added Notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Notes" />
+    <MESSAGE value="Added venv to the project" />
+    <MESSAGE value="- Added new XLSC File" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added new XLSC File" />
   </component>
 </project>

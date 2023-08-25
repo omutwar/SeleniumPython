@@ -25,3 +25,26 @@ Notes: updates will be stored here
 ----------------------------------
 Tags: Selenium, Python
 
+Explicit Wait
+-------------
+> Usage:
+>   wait = WebDriverWait(driver, 10)
+>   wait.until(EC.element_to_be_clickable(By.XPATH, <locator>))
+
+### NOTE: How To Install Venv
+-- In Windows, we can install it by going to the python installation directory, then type <python.exe -m venv <path-to-install-the-package>
+
+-- In Windows, the <activate> file is located inside the <Scripts> directory, while in Mac/Linux, it may be inside the <bin> directory
+
+
+# How To Govern Test Search In Pytest
+-------------------------------------
+    - Create a file name <pytest.ini> or hidden version <.pytest.ini>
+    - 
+        > [pytest] # This should be the first line
+        > python_files = test_*
+        > python_classes = Tests*
+        > python_functions = test_*
+        -   add more as needed 
+
+    - 
