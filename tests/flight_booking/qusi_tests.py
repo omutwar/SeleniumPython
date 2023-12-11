@@ -1,6 +1,9 @@
 import time
 
 from selenium import webdriver
+from selenium import webdriver_manager
+
+
 
 driver_path = "drivers/geckodriver/geckodriver.exe"
 driver = webdriver.Firefox(executable_path=driver_path)
