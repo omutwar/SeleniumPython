@@ -1,6 +1,5 @@
 """
     Opera driver Page: <https://github.com/operasoftware/operachromiumdriver>
-
 """
 
 import time

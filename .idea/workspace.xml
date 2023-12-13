@@ -5,33 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9772cb0-b999-43a3-854d-7535ff47b13a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/OOP_Concepts/inheritance_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_Concepts/oops_001.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POMDemo/base_classes/BaseClass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POMDemo/base_classes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POMDemo/pages/LandingPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POMDemo/pages/LoginPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POMDemo/pages/ShoppingPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POMDemo/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POMDemo/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POMDemo/tests/driver_setup_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POMDemo/tests/shadow_dom_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myApps/conditions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myApps/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myApps/hello.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myApps/levels_of_python_coding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myApps/loops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myApps/operations_in_python.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/flight_booking/SalesForce_Tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/selenium_demo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/selenium_demo/selenium_test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SeleniumPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SeleniumPython.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_Concepts/method_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumPythonBehaveFramework/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumPythonBehaveFramework/draft/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumPythonBehaveFramework/draft/write_excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumPythonBehaveFramework/resources/configurations/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumPythonBehaveFramework/utilities/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumPythonBehaveFramework/utilities/data_reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_demo/etsy_home_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/selenium_demo/yahoo_search_tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/chromedriver/LICENSE.chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/chromedriver/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/data3.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/resources/data3.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/browser_based_tests/opera_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/browser_based_tests/opera_tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/flight_booking/qusi_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/flight_booking/qusi_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/google_tests/selenium1_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/google_tests/selenium1_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/selenium_demo/selenium_test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/selenium_demo/selenium_test1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +43,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "omutwar"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="15be7471-2bf2-45a1-88b3-3930d4b79b07" />
+        <option name="url" value="https://github.com/omutwar/SeleniumPython" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/myApps/levels_of_python_coding.py" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -75,7 +78,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for selenium1_tests.test_google_page.executor": "Run",
+    "Python tests.Python tests for selenium1_tests.test_google_signin.executor": "Run",
+    "Python.config_reader (1).executor": "Run",
+    "Python.config_reader.executor": "Run",
+    "Python.etsy_home_tests.executor": "Run",
+    "Python.method_types.executor": "Run",
     "Python.selenium_test1.executor": "Run",
+    "Python.write_excel.executor": "Run",
+    "Python.yahoo_search_tests.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -84,7 +95,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/bughr/PycharmProjects/SeleniumPython",
     "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "settings.editor.splitter.proportion": "0.30346233",
     "vue.rearranger.settings.migration": "true"
   }
@@ -96,11 +107,11 @@
       <recent name="C:\Users\bughr\PycharmProjects\SeleniumProject\bin\geckodriver" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\SeleniumPythonBehaveFramework\utilities" />
+      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\SeleniumPythonBehaveFramework\resources\configurations" />
+      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\SeleniumPythonBehaveFramework\draft" />
       <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\myApps" />
       <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython" />
-      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\.pytest_cache" />
-      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\tests" />
-      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\tests\google_tests" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -111,8 +122,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Python.selenium_test1">
-    <configuration name="driver_setup_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.write_excel">
+    <configuration name="config_reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,12 +132,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POMDemo/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumPythonBehaveFramework/utilities" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/POMDemo/tests/driver_setup_test.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\bughr\PycharmProjects\SeleniumPython\SeleniumPythonBehaveFramework\resources\configurations\config_reader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="inheritance_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="config_reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,12 +154,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP_Concepts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumPythonBehaveFramework/resources/configurations" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP_Concepts/inheritance_demo.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\bughr\PycharmProjects\SeleniumPython\SeleniumPythonBehaveFramework\utilities\config_reader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +167,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="levels_of_python_coding" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="data_reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,12 +176,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myApps" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumPythonBehaveFramework/utilities" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myApps/levels_of_python_coding.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\bughr\PycharmProjects\SeleniumPython\SeleniumPythonBehaveFramework\utilities\data_reader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data_reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumPythonBehaveFramework/utilities" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\bughr\PycharmProjects\SeleniumPython\SeleniumPythonBehaveFramework\utilities\data_reader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,7 +234,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="oops_001" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="write_excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,12 +243,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP_Concepts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumPythonBehaveFramework/draft" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP_Concepts/oops_001.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumPythonBehaveFramework/draft/write_excel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,42 +256,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="selenium_test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for selenium1_tests.test_google_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/selenium_demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/google_tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/selenium_demo/selenium_test1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;selenium1_tests.test_google_page&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for selenium1_tests.test_google_signin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/google_tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;selenium1_tests.test_google_signin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.selenium_test1" />
-        <item itemvalue="Python.driver_setup_test" />
-        <item itemvalue="Python.levels_of_python_coding" />
-        <item itemvalue="Python.inheritance_demo" />
-        <item itemvalue="Python.oops_001" />
+        <item itemvalue="Python.write_excel" />
+        <item itemvalue="Python.data_reader" />
+        <item itemvalue="Python.config_reader (1)" />
+        <item itemvalue="Python.config_reader (1)" />
+        <item itemvalue="Python.data_reader" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-67fca87a943a-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.11799.259" />
+        <option value="bundled-python-sdk-7a29c1521ef0-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.11799.298" />
       </set>
     </attachedChunks>
   </component>

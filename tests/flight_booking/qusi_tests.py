@@ -1,12 +1,21 @@
 import time
+"""
+    chrome_options = Options()
+    chrome_options.add_experimental_option("detach", True)
 
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+    driver.maximize_window()
+"""
 from selenium import webdriver
-from selenium import webdriver_manager
+from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.firefox.options import Options
+from webdriver_manager.firefox import GeckoDriverManager
 
-
+gecko_options = Options()
+gecko_options.add_argument("detach", True)
 
 driver_path = "drivers/geckodriver/geckodriver.exe"
-driver = webdriver.Firefox(executable_path=driver_path)
+driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=gecko_options)
 url = "https://www.travelocity.com/Flights"
 
 n = 0

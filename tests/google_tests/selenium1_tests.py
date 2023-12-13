@@ -2,18 +2,39 @@ import time
 
 import pytest
 from selenium import webdriver
+from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.firefox import GeckoDriverManager
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 
-gecko = webdriver.Firefox(executable_path='drivers/geckodriver/geckodriver.exe')
+options = Options()
+options.add_experimental_option("detach", True)
+gecko = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=options)
 # chrome = webdriver.Chrome(executable_path='drivers/chromedriver/chromedriver.exe')
 
-# drivers = [gecko, chrome]
-drivers = [gecko]
+drivers = ["gecko", "chrome"]
+# drivers = [gecko]
+# for driver in drivers:
+#     if "chrome" in driver:
+#         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+#         break
+#     elif "firefox" in driver:
+#         driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=options)
+#         break
+#     else:
+#         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+#         break
 
 
 @pytest.mark.GoogleTitle
 def test_google_page():
     for driver in drivers:
+        option = Options()
+        option.add_experimental_option("detach", True)
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=option)
         driver.maximize_window()
         time.sleep(2)
         driver.get('https://www.google.com')
