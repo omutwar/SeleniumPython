@@ -7,10 +7,10 @@ class HomeTest(BaseCase):
 
     def test_home_page(self):
         # open the website
-        self.goto('https://practice.sdetunicorns.com/')
+        self.goto(HomeTest.base_url)
 
         # assert the web title
         self.assert_title(HomeTest.actual_title)
 
         # assert the logo
-        pass
+        self.assert_element_present("//img[@alt='Practice E-Commerce Site']")
