@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9772cb0-b999-43a3-854d-7535ff47b13a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/OOP_Concepts/method_types.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumPythonBehaveFramework/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumPythonBehaveFramework/draft/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumPythonBehaveFramework/draft/write_excel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumPythonBehaveFramework/resources/configurations/config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumPythonBehaveFramework/utilities/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumPythonBehaveFramework/utilities/data_reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium_demo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium_demo/etsy_home_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/selenium_demo/yahoo_search_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/data3.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/resources/data3.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/browser_based_tests/opera_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/browser_based_tests/opera_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/flight_booking/qusi_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/flight_booking/qusi_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/google_tests/selenium1_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/google_tests/selenium1_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/selenium_demo/selenium_test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/selenium_demo/selenium_test1.py" afterDir="false" />
-    </list>
+    <list default="true" id="e9772cb0-b999-43a3-854d-7535ff47b13a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,16 +26,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "omutwar"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;omutwar&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="15be7471-2bf2-45a1-88b3-3930d4b79b07" />
+        <option name="accountId" value="b991fbfb-c207-483b-840b-3a2f462eaa58" />
         <option name="url" value="https://github.com/omutwar/SeleniumPython" />
       </UrlAndAccount>
     </option>
@@ -80,6 +63,7 @@
   "keyToString": {
     "Python tests.Python tests for selenium1_tests.test_google_page.executor": "Run",
     "Python tests.Python tests for selenium1_tests.test_google_signin.executor": "Run",
+    "Python tests.Python tests for test_home.HomeTest.test_home_page.executor": "Run",
     "Python.config_reader (1).executor": "Run",
     "Python.config_reader.executor": "Run",
     "Python.etsy_home_tests.executor": "Run",
@@ -93,10 +77,10 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "win10",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/bughr/PycharmProjects/SeleniumPython",
+    "last_opened_file_path": "C:/Users/bughr/PycharmProjects/SeleniumPython/seleniumvenv/Scripts",
     "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "settings.editor.splitter.proportion": "0.30346233",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.splitter.proportion": "0.19939348",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -107,11 +91,11 @@
       <recent name="C:\Users\bughr\PycharmProjects\SeleniumProject\bin\geckodriver" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\SeleniumPythonBehaveFramework\utilities" />
-      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\SeleniumPythonBehaveFramework\resources\configurations" />
-      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\SeleniumPythonBehaveFramework\draft" />
-      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\myApps" />
-      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython" />
+      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\tests" />
+      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\SeleniumPython\Lib" />
+      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\resources" />
+      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\SeleniumPython" />
+      <recent name="C:\Users\bughr\PycharmProjects\PythonBehave" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -122,29 +106,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Python.write_excel">
-    <configuration name="config_reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumPython" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumPythonBehaveFramework/utilities" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\bughr\PycharmProjects\SeleniumPython\SeleniumPythonBehaveFramework\resources\configurations\config_reader.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for test_home.HomeTest.test_home_page">
     <configuration name="config_reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPython" />
       <option name="ENV_FILES" value="" />
@@ -256,21 +218,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for selenium1_tests.test_google_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumPython" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/google_tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;selenium1_tests.test_google_page&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for selenium1_tests.test_google_signin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPython" />
       <option name="ENV_FILES" value="" />
@@ -286,12 +233,42 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_home.HomeTest.test_home_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_home.HomeTest.test_home_page&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_home.HomeTest.test_home_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/selenium_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_home.HomeTest.test_home_page&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_home.HomeTest.test_home_page" />
+        <item itemvalue="Python tests.Python tests for tests.test_home.HomeTest.test_home_page" />
         <item itemvalue="Python.write_excel" />
         <item itemvalue="Python.data_reader" />
-        <item itemvalue="Python.config_reader (1)" />
-        <item itemvalue="Python.config_reader (1)" />
         <item itemvalue="Python.data_reader" />
       </list>
     </recent_temporary>
