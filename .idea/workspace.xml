@@ -5,27 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9772cb0-b999-43a3-854d-7535ff47b13a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/oop_concepts/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom_demo/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/selenium_tests/openhrm_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SeleniumPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SeleniumPython.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Concepts/inheritance_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop_concepts/inheritance_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Concepts/method_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop_concepts/method_types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_Concepts/oops_001.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop_concepts/oops_001.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POMDemo/base_classes/BaseClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/pom_demo/base_classes/BaseClass.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POMDemo/base_classes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop_concepts/dict_slots.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POMDemo/pages/LandingPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pom_demo/pages/LandingPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POMDemo/pages/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pom_demo/pages/LoginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POMDemo/pages/ShoppingPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pom_demo/pages/ShoppingPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POMDemo/pages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pom_demo/base_classes/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POMDemo/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pom_demo/pages/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POMDemo/tests/driver_setup_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/pom_demo/tests/driver_setup_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POMDemo/tests/shadow_dom_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/pom_demo/tests/shadow_dom_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/selenium_tests/test_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/selenium_tests/test_home.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latest_logs/tests.selenium_tests.openhrm_test.OpenHRMTest.test_add_user/basic_test_info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latest_logs/tests.selenium_tests.openhrm_test.OpenHRMTest.test_add_user/page_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latest_logs/tests.selenium_tests.openhrm_test.OpenHRMTest.test_add_user/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latest_logs/tests.selenium_tests.openhrm_test.OpenHRMTest.test_update_user/basic_test_info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latest_logs/tests.selenium_tests.openhrm_test.OpenHRMTest.test_update_user/page_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latest_logs/tests.selenium_tests.openhrm_test.OpenHRMTest.test_update_user/screenshot.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,11 +107,11 @@
       <recent name="C:\Users\bughr\PycharmProjects\SeleniumProject\bin\geckodriver" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython" />
+      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\oop_concepts" />
       <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\flask_application" />
       <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\tests\selenium_demo" />
       <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\tests\etsy_ui" />
-      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\tests" />
-      <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\SeleniumPython\Lib" />
     </key>
   </component>
   <component name="RunDashboard">
