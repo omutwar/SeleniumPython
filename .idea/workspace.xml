@@ -5,24 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9772cb0-b999-43a3-854d-7535ff47b13a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/flask_application/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myApps/hello_python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop_concepts/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom_demo/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/selenium_tests/openhrm_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/SeleniumPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SeleniumPython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApps/Python101.py" beforeDir="false" afterPath="$PROJECT_DIR$/myApps/python101.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApps/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_application/my_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/browser_based_tests/opera_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/browser_based_tests/opera_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/browser_based_tests/salesforce_login_page_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/browser_based_tests/salesforce_login_page_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/etsy_ui_tests/etsy_home_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/etsy_ui_tests/etsy_home_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/flight_booking_tests/SalesForce_Tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/flight_booking_tests/salesforce_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/flight_booking_tests/flight_booking_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/flight_booking_tests/flight_booking_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/flight_booking_tests/qusi_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/flight_booking_tests/qusi_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/google_tests/selenium1_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/google_tests/selenium1_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/selenium_tests/selenium_test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/selenium_tests/selenium_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Concepts/inheritance_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop_concepts/inheritance_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Concepts/method_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop_concepts/method_types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_Concepts/oops_001.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop_concepts/oops_001.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POMDemo/base_classes/BaseClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/pom_demo/base_classes/BaseClass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POMDemo/base_classes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop_concepts/dict_slots.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POMDemo/pages/LandingPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pom_demo/pages/LandingPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POMDemo/pages/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pom_demo/pages/LoginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POMDemo/pages/ShoppingPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pom_demo/pages/ShoppingPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POMDemo/pages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pom_demo/base_classes/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POMDemo/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pom_demo/pages/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POMDemo/tests/driver_setup_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/pom_demo/tests/driver_setup_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POMDemo/tests/shadow_dom_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/pom_demo/tests/shadow_dom_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/selenium_tests/test_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/selenium_tests/test_home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/selenium_tests/yahoo_search_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/selenium_tests/yahoo_search_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unittests/Appium1_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unittests/appium1_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,32 +81,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for selenium1_tests.test_google_page.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for selenium1_tests.test_google_signin.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_home.HomeTest.test_home_page.executor&quot;: &quot;Run&quot;,
-    &quot;Python.config_reader (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.config_reader.executor&quot;: &quot;Run&quot;,
-    &quot;Python.etsy_home_tests.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hello_python.executor&quot;: &quot;Run&quot;,
-    &quot;Python.method_types.executor&quot;: &quot;Run&quot;,
-    &quot;Python.selenium_test1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.write_excel.executor&quot;: &quot;Run&quot;,
-    &quot;Python.yahoo_search_tests.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;win10&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bughr/PycharmProjects/SeleniumPython/seleniumvenv/Scripts&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.19939348&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for openhrm_test.OpenHRMTest.test_login.executor": "Run",
+    "Python tests.Python tests for selenium1_tests.test_google_page.executor": "Run",
+    "Python tests.Python tests for selenium1_tests.test_google_signin.executor": "Run",
+    "Python tests.Python tests for test_home.HomeTest.executor": "Run",
+    "Python tests.Python tests for test_home.HomeTest.test_click_get_started.executor": "Run",
+    "Python tests.Python tests for test_home.HomeTest.test_home_page.executor": "Run",
+    "Python tests.Python tests for test_home.HomeTest.test_menu_links.executor": "Run",
+    "Python tests.Python tests for test_home.HomeTest.test_text_displayed.executor": "Run",
+    "Python.config_reader (1).executor": "Run",
+    "Python.config_reader.executor": "Run",
+    "Python.dict_slots.executor": "Run",
+    "Python.etsy_home_tests.executor": "Run",
+    "Python.hello_python.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.method_types.executor": "Run",
+    "Python.selenium_test1.executor": "Run",
+    "Python.write_excel.executor": "Run",
+    "Python.yahoo_search_tests.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "win10",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/bughr/PycharmProjects/SeleniumPython",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "settings.editor.splitter.proportion": "0.19939348",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bughr\PycharmProjects\SeleniumPython\drivers" />
@@ -126,8 +136,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_home.HomeTest.test_home_page">
-    <configuration name="data_reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for openhrm_test.OpenHRMTest.test_login">
+    <configuration name="dict_slots" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,11 +146,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumPythonBehaveFramework/utilities" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop_concepts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\bughr\PycharmProjects\SeleniumPython\SeleniumPythonBehaveFramework\utilities\data_reader.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop_concepts/dict_slots.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hello_python" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,11 +168,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myApps" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop_concepts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myApps/hello_python.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop_concepts/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,29 +204,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="write_excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumPython" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumPythonBehaveFramework/draft" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumPythonBehaveFramework/draft/write_excel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_home.HomeTest.test_home_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for openhrm_test.OpenHRMTest.test_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -227,47 +215,47 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_home.HomeTest.test_home_page&quot;" />
+      <option name="_new_target" value="&quot;openhrm_test.OpenHRMTest.test_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.selenium_demo.test_home.HomeTest.test_home_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_home.HomeTest.test_menu_links" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/selenium_tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.selenium_demo.test_home.HomeTest.test_home_page&quot;" />
+      <option name="_new_target" value="&quot;test_home.HomeTest.test_menu_links&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.selenium_tests.test_home.HomeTest.test_home_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_home.HomeTest.test_text_displayed" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/selenium_demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/selenium_tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.selenium_tests.test_home.HomeTest.test_home_page&quot;" />
+      <option name="_new_target" value="&quot;test_home.HomeTest.test_text_displayed&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_home.HomeTest.test_home_page" />
-        <item itemvalue="Python.hello_python" />
-        <item itemvalue="Python tests.Python tests for tests.selenium_demo.test_home.HomeTest.test_home_page" />
-        <item itemvalue="Python tests.Python tests for tests.selenium_tests.test_home.HomeTest.test_home_page" />
-        <item itemvalue="Python.write_excel" />
+        <item itemvalue="Python tests.Python tests for openhrm_test.OpenHRMTest.test_login" />
+        <item itemvalue="Python tests.Python tests for test_home.HomeTest.test_menu_links" />
+        <item itemvalue="Python.dict_slots" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python tests.Python tests for test_home.HomeTest.test_text_displayed" />
       </list>
     </recent_temporary>
   </component>

@@ -1,6 +1,6 @@
 import selenium.webdriver.chrome.webdriver
 
-from POMDemo.base_classes.BaseClass import BaseClass
+from pom_demo.base_classes.BaseClass import BaseClass
 
 
 class LandingPage(BaseClass):

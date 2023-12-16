@@ -101,4 +101,11 @@ Source: Conversation with Bing, 9/12/2023
 - Activate the virtual environment with this command
 > source venv/bin/activate
 > venv/Scripts/activate
-- 
+
+
+#### How To Generate Allure Report
+   - pytest -s --alluredir="./reports"
+   - allure serve <path/to/reports/dir"
+
+### How To Run Pytest:
+   pytest -v -s <path/to/test/file> --alluredir="./reports"
