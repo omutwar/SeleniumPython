@@ -9,5 +9,6 @@ basics
 
 # binary files
 drivers
+main.py
 
 resources/Text File.txt
