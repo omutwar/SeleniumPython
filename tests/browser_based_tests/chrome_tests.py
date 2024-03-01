@@ -11,7 +11,6 @@ from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
 options = webdriver.ChromeOptions()
-options.binary_location = "path/to/operabrowser"
 options.add_experimental_option('w3c', True)
 driver = webdriver.Chrome(service=Service(executable_path=ChromeDriverManager().install()), options=options)
 
