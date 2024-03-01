@@ -1,40 +1,45 @@
-import pytest
-from selenium import webdriver
 import time
+
+from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.support import expected_conditions as ec
+from selenium.webdriver.support.ui import WebDriverWait
+from webdriver_manager.firefox import GeckoDriverManager
 
-gecko = webdriver.Firefox()
+driver = webdriver.Firefox(service=Service(executable_path=GeckoDriverManager().install()))
+driver.maximize_window()
 
 
-@pytest.fail('This test needs to be fixed')
 def oneway_flight_test():
-    gecko.get('https://www.travelocity.com/Flights')
-    gecko.maximize_window()
-    gecko.implicitly_wait(5)
+    driver.get('https://www.travelocity.com/Flights')
+    driver.implicitly_wait(5)
     # wait = EC.presence_of_element_located(By.XPATH, "//a/span[@class='uitk-tab-text'][contains(text(),'Roundtrip')]")
-    wait = WebDriverWait(gecko, 5)
+    wait = WebDriverWait(driver, 5)
     wait.until(ec.element_to_be_clickable([By.XPATH, "//a/span[@class='uitk-tab-text'][contains(text(),'Roundtrip')]"]))
-    print('Web Title: ', gecko.title)
-    print('Current Website URL: ', gecko.current_url)
+    print('Web Title: ', driver.title)
+    print('Current Website URL: ', driver.current_url)
     wait()
     time.sleep(5)
-    gecko.find_element(By.ID, 'typeahead-originInput-0').clear()
+    driver.find_element(By.ID, 'typeahead-originInput-0').clear()
     time.sleep(5)
-    gecko.find_element(By.ID, 'typeahead-originInput-0').send_keys('SFO')
+    driver.find_element(By.ID, 'typeahead-originInput-0').send_keys('SFO')
     time.sleep(2)
-    gecko.find_element((By.XPATH, '//*[@data-stid="origin_select-results"]/li[1]')).click()
+    driver.find_element((By.XPATH, '//*[@data-stid="origin_select-results"]/li[1]')).click()
     time.sleep(2)
     # Here we automate return flight
-    # gecko.find_element(By.XPATH, 'aria-label="Going to"').click()
+    # driver.find_element(By.XPATH, 'aria-label="Going to"').click()
     # time.sleep(2)
-    # gecko.find_element(By.XPATH, '//*[@id="origin_select"]').clear()
-    # gecko.find_element(By.XPATH, '//*[@id="origin_select"]').send_keys('JFK')
+    # driver.find_element(By.XPATH, '//*[@id="origin_select"]').clear()
+    # driver.find_element(By.XPATH, '//*[@id="origin_select"]').send_keys('JFK')
     # time.sleep(2)
-    # gecko.find_element(By.XPATH, '//*[@data-stid="destination_select-results"]/li[1]').click()
+    # driver.find_element(By.XPATH, '//*[@data-stid="destination_select-results"]/li[1]').click()
     # time.sleep(2)
     # Here click on search
-    # gecko.find_element(By.ID, 'search_button').click()
+    # driver.find_element(By.ID, 'search_button').click()
     # time.sleep(5)
-    # gecko.quit()
+    # driver.quit()
+
+
+if __name__ == '__main__':
+    oneway_flight_test()
