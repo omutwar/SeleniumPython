@@ -1,0 +1,12 @@
+# ignore python libraries
+venv
+
+# Python files
+basics
+
+# IDE generated files
+
+# binary files
+drivers
+
+resources/Text File.txt
