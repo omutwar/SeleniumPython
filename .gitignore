@@ -5,6 +5,7 @@ venv
 basics
 
 # IDE generated files
+.idea
 
 # binary files
 drivers
