@@ -1,5 +1,5 @@
 """
-
+    Demo Appium test for mobile testing
 """
 
 import unittest
@@ -30,4 +30,3 @@ class TestAppium(unittest.TestCase):
     def test_find_battery(self) -> None:
         el = self.driver.find_element(by=AppiumBy.XPATH, value='//*[@test="Battery"]')
         el.click()
-

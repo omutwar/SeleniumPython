@@ -1,3 +1,6 @@
+# ignore framework configs
+resources/configs/config.ini
+
 # ignore python libraries
 venv
 
@@ -6,9 +9,10 @@ basics
 
 # IDE generated files
 .idea
+__pycache__/
 
 # binary files
 drivers
 main.py
+resources/files/Text File.txt
 
-resources/Text File.txt
