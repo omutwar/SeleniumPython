@@ -69,3 +69,38 @@ driver.maximize_window()
 
 driver.get('url.to.test.website')
 
+#### pytest.ini
+A concise and comprehensive `pytest.ini` file for Selenium tests might include settings for configuring test runs, plugins, and output formats. Here's an example:
+
+```ini
+[pytest]
+# Test discovery
+python_files = test_*.py
+python_classes = Test*
+python_functions = test_*
+
+# Output settings
+addopts = -ra -v --html=reports/report.html --self-contained-html
+norecursedirs = .git .tox venv
+
+# Plugins
+filterwarnings =
+    ignore::DeprecationWarning
+    ignore::UserWarning
+
+# HTML report customization
+render_collapsed = True
+render_module = true
+render_class = true
+render_instance = true
+```
+
+In this `pytest.ini` file:
+
+- `python_files`, `python_classes`, and `python_functions` define patterns to discover test files, classes, and functions, respectively.
+- `addopts` specifies additional command-line options for pytest, including generating an HTML report (`--html=reports/report.html`) with verbose output (`-v`) and showing all test results (`-ra`). The `--self-contained-html` option ensures that the report is self-contained.
+- `norecursedirs` excludes specific directories from test discovery.
+- `filterwarnings` suppresses certain types of warnings during test execution.
+- HTML report customization options (`render_collapsed`, `render_module`, `render_class`, `render_instance`) control the level of detail in the HTML report.
+
+Adjust these settings according to your project's needs.
