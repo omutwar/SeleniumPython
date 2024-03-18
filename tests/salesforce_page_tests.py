@@ -23,13 +23,13 @@ def test_mytest():
 
 
 def test_salesforce_login():
-
     driver = webdriver.Chrome()
+    driver.maximize_window()
     driver.get("https://www.salesforce.com")
 
     web_title = driver.title
     print(web_title)
+    assert "Salesforce: The Customer Company - Salesforce.com US" in web_title, (f'Assert that the title contains '
+                                                                                 f'<SalesForce>')
 
     driver.quit()
-
-

@@ -53,7 +53,6 @@ def round_trip_test():
     time.sleep(5)
     driver.quit()
 
-
-if __name__ == '__main__':
-    oneway_trip_test()
-    round_trip_test()
+# if __name__ == '__main__':
+#     oneway_trip_test()
+#     round_trip_test()

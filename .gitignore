@@ -16,3 +16,5 @@ drivers
 main.py
 resources/files/Text File.txt
 
+# remove report files
+report
